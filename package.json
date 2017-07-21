@@ -1,0 +1,19 @@
+{
+  "name": "webserver",
+  "version": "1.0.0",
+  "description": "Simple web Server",
+  "main": "server.js",
+  "dependencies":{
+  	"body-parser":"*",
+  	"express":"*",
+    "react":"*",
+    "react-dom":"*",
+    "express-handlebars":"*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Chinnapa",
+  "license": "ISC"
+}
